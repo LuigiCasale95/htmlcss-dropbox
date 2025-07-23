@@ -21,7 +21,7 @@ body {
 .button {
     background-color: #0062FE;
     color: white;
-    padding: 4px;
+    padding: 7px;
 
 }
 /* HEADER */
@@ -100,7 +100,6 @@ header h1 {
     padding-bottom: 90px;
 }
 
-
 /* MAIN */
 .colonne-piani {
     display: flex;
@@ -126,6 +125,12 @@ header h1 {
     /* Debug */
     border: 1px solid gray;
 /*     height: 70px; */
+}
+.grigio {
+    color: gray;
+}
+ul {
+    list-style-type: none;
 }
 
 .enterprise {
