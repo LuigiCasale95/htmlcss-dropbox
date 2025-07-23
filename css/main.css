@@ -30,6 +30,7 @@ body {
     /* Debug */
     height: 60px;
     background-color: blueviolet;
+    border-style: dashed;
 }
 .jumbo-container {
     width: 100%;
@@ -65,4 +66,32 @@ header h1 {
     padding-bottom: 60px;
 }
 /* MAIN */
+.colonne-piani {
+    display: flex;
+    gap: 10px;
+}
 
+.piani {
+    width: calc(100% / 3);
+
+    /* Debug */
+    height: 550px;
+    background-color: brown;
+    border-style: dashed;
+}
+.enterprise {
+    margin-top: 150px;
+    width: 100%;
+    /* Debug */
+    height: 250px;
+    border-style: dashed;
+    background-color: brown;
+}
+.tipo-piano {
+    width: 100%;
+    /* Debug */
+    border-style: dashed;
+    height: 70px;
+
+    
+}
