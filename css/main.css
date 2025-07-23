@@ -14,47 +14,81 @@ body {
 .container-main {
     max-width: 73%;
     margin: 0 auto;
+    margin-top: 25px;
     /* Debug */
     background-color: yellowgreen;
 }
+.button {
+    background-color: #0062FE;
+    color: white;
+    padding: 4px;
+
+}
 /* HEADER */
+.logo {
+    width: 30%;
+    height: 75%;
+}
 .intestazione {
     display: flex;
+    justify-content: space-between;
     width: 100%; 
     /* debug */
-    background-color: rgb(117, 112, 112);
-    height: 60px;
+/*     background-color: rgb(117, 112, 112);
+    height: 60px; */
 }
 .box-intestazione {
-    width: 50%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
     /* Debug */
-    height: 60px;
+/*     height: 60px;
     background-color: blueviolet;
-    border-style: dashed;
+    border-style: dashed; */
+}
+.contenuto-destro-intest {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.box-intestazione span {
+    gap: 10px;
+
 }
 .jumbo-container {
-    width: 100%;
-    height: 500px;
     background-color: #B4D0E7;
+    height: 555px;
 }
 header h1 {
-    font-size: 58px;
-    padding-top: 40px;
+    font-size: 61px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+.jumbo-immagine {
+    width: 100%;
 }
 .jumbo-testo {
     width: 30%;
+    font-size: 17px;
     /* Debug */
-    height: 300px;
+/*     height: 300px;
     background-color: burlywood;
-    border-style: dashed;
+    border-style: dashed; */
 
 }
 .jumbo-img {
     width: 70%;
     /* Debug */
-    height: 300px;
+/*     height: 300px;
     background-color: burlywood;
-    border-style: dashed;
+    border-style: dashed; */
 }
 .box-jumbo {
     display: flex;
@@ -62,8 +96,8 @@ header h1 {
     
 }
 .linea-fine-header {
-    border-bottom: 1px solid black;
-    padding-bottom: 60px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 90px;
 }
 
 
@@ -79,13 +113,19 @@ header h1 {
     /* Debug */
     height: 550px;
     background-color: brown;
-    border-style: dashed;
+    border: 1px solid gray;
+}
+.descrizione-piani {
+    padding-top: 15px;
+    padding-left:  15px;
 }
 .tipo-piano {
     width: 100%;
+    text-align: center;
+    padding: 8px;
     /* Debug */
-    border-style: dashed;
-    height: 70px;  
+    border: 1px solid gray;
+/*     height: 70px; */
 }
 
 .enterprise {
