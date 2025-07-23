@@ -65,6 +65,8 @@ header h1 {
     border-bottom: 1px solid black;
     padding-bottom: 60px;
 }
+
+
 /* MAIN */
 .colonne-piani {
     display: flex;
@@ -79,19 +81,50 @@ header h1 {
     background-color: brown;
     border-style: dashed;
 }
-.enterprise {
-    margin-top: 150px;
-    width: 100%;
-    /* Debug */
-    height: 250px;
-    border-style: dashed;
-    background-color: brown;
-}
 .tipo-piano {
     width: 100%;
     /* Debug */
     border-style: dashed;
-    height: 70px;
+    height: 70px;  
+}
 
-    
+.enterprise {
+    margin-top: 150px;
+    width: 100%;
+    /* Debug */
+    height: 280px;
+    border-style: dashed;
+    background-color: brown;
+}
+.partner-img {
+    width: 60%;
+     /*  Debug */
+     height: 400px;
+     background-color: blueviolet;
+     border-style: dashed;
+}
+.partner-testo {
+    width: 40%;
+    /* Debug */
+    height: 400px;
+    background-color: blueviolet;
+    border-style: dashed;
+}
+.box-partner-dropbox {
+    margin-top: 200px;
+    display: flex;
+}
+.operazioni {
+    width: calc((100% / 3) - (20px / 3));
+    /* debug */
+    background-color: blue;
+    height: 350px;
+    border-style: dashed;
+}
+.colonne-operazioni {
+    display: flex;
+
+    gap: 10px;
+    flex-wrap: wrap;
+
 }
