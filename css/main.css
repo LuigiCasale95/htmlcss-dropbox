@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     margin-top: 25px;
     /* Debug */
-    background-color: yellowgreen;
+/*     background-color: yellowgreen; */
 }
 .button {
     background-color: #0062FE;
@@ -30,8 +30,14 @@ a {
 ul {
     list-style-type: none;
 }
-
-
+.container-main:first-child {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.check-box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 /* HEADER */
 .logo {
     width: 30%;
@@ -41,9 +47,6 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%; 
-    /* debug */
-/*     background-color: rgb(117, 112, 112);
-    height: 60px; */
 }
 .box-intestazione {
     padding-bottom: 15px;
@@ -54,10 +57,6 @@ ul {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    /* Debug */
-/*     height: 60px;
-    background-color: blueviolet;
-    border-style: dashed; */
 }
 .contenuto-destro-intest {
     position: absolute;
@@ -93,18 +92,10 @@ header h1 {
 .jumbo-testo {
     width: 30%;
     font-size: 17px;
-    /* Debug */
-/*     height: 300px;
-    background-color: burlywood;
-    border-style: dashed; */
 
 }
 .jumbo-img {
     width: 70%;
-    /* Debug */
-/*     height: 300px;
-    background-color: burlywood;
-    border-style: dashed; */
 }
 .box-jumbo {
     display: flex;
@@ -131,23 +122,18 @@ header h1 {
 }
 .piani {
     width: calc(100% / 3);
-
-    /* Debug */
-/*     height: 550px;
-    background-color: brown; */
     border: 1px solid gray;
 }
 .descrizione-piani {
     padding-top: 15px;
     padding-left:  15px;
+    border: 1 solid gray;
 }
 .tipo-piano {
     width: 100%;
     text-align: center;
     padding: 8px;
-    /* Debug */
     border: 1px solid gray;
-/*     height: 70px; */
 }
 .descrizione-piani > div {
     margin-top: 25px;
@@ -156,21 +142,31 @@ header h1 {
 .tempo-piano {
     color: gray;
 }
-.descrizione-piani a.button {
-    margin-left: 20px;
-}
-
+ .posizione-button {
+    display: flex;
+    justify-content: center;
+ }
 .riga-grigia{
     border-bottom: 1px solid grey;
-width: 20%;
+    width: 20%;
+}
+.box-enterprise {
+    border: 1 solid gray;
 }
 .enterprise {
     margin-top: 150px;
     width: 100%;
-    /* Debug */
-    height: 280px;
-    border-style: dashed;
-    background-color: brown;
+    position: relative;
+    border: 1 solid gray;
+}
+.enterprise .button {
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+.enterprise p {
+    padding-top: 70px;
+    padding-bottom: 15px;
 }
 .partner-img {
     width: 60%;
@@ -178,6 +174,9 @@ width: 20%;
      height: 400px;
      background-color: blueviolet;
      border-style: dashed;
+}
+.img-partner {
+    width: 100%;
 }
 .partner-testo {
     width: 40%;
@@ -188,6 +187,7 @@ width: 20%;
 }
 .box-partner-dropbox {
     margin-top: 200px;
+    margin-bottom: 200px;
     display: flex;
 }
 .operazioni {
