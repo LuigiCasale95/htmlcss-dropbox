@@ -246,12 +246,17 @@ footer {
 }
 .colonne-info {
         width: calc((85% / 5) - (40px / 5));
+        padding-top: 20px;
 }
 .lista-info {
     /* debug */
-    border-style: dashed;
+/*     border-style: dashed;
     background-color: blueviolet;
-    height: 200px ;
+    height: 200px ; */
+}
+.lista-info ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .lingua {
     border-top: 1 solid white;
