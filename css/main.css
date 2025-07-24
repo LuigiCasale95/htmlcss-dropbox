@@ -171,9 +171,9 @@ header h1 {
 .partner-img {
     width: 60%;
      /*  Debug */
-     height: 400px;
+/*      height: 400px;
      background-color: blueviolet;
-     border-style: dashed;
+     border-style: dashed; */
 }
 .img-partner {
     width: 100%;
@@ -181,9 +181,18 @@ header h1 {
 .partner-testo {
     width: 40%;
     /* Debug */
-    height: 400px;
+/*     height: 400px;
     background-color: blueviolet;
-    border-style: dashed;
+    border-style: dashed; */
+}
+.partner-testo > div {
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.button.partner {
+    color: black;
+    background-color: rgb(179, 164, 164);
+    border: 1 solid black;
 }
 .box-partner-dropbox {
     margin-top: 200px;
