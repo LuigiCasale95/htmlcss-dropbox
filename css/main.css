@@ -22,8 +22,16 @@ body {
     background-color: #0062FE;
     color: white;
     padding: 7px;
-
+    text-align: center;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+
 /* HEADER */
 .logo {
     width: 30%;
@@ -61,6 +69,14 @@ body {
 .box-intestazione span {
     gap: 10px;
 
+}
+/* JUMBO */
+.button.jumbo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.fa-arrow-down {
+    font-size: 45px;
 }
 .jumbo-container {
     background-color: #B4D0E7;
@@ -103,15 +119,22 @@ header h1 {
 /* MAIN */
 .colonne-piani {
     display: flex;
+    align-items: stretch;
     gap: 10px;
 }
-
+.descrizione-piani > ul {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.descrizione-piani > ul > li {
+    padding-bottom: 25px;
+}
 .piani {
     width: calc(100% / 3);
 
     /* Debug */
-    height: 550px;
-    background-color: brown;
+/*     height: 550px;
+    background-color: brown; */
     border: 1px solid gray;
 }
 .descrizione-piani {
@@ -126,13 +149,21 @@ header h1 {
     border: 1px solid gray;
 /*     height: 70px; */
 }
-.grigio {
+.descrizione-piani > div {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+.tempo-piano {
     color: gray;
 }
-ul {
-    list-style-type: none;
+.descrizione-piani a.button {
+    margin-left: 20px;
 }
 
+.riga-grigia{
+    border-bottom: 1px solid grey;
+width: 20%;
+}
 .enterprise {
     margin-top: 150px;
     width: 100%;
